@@ -1,0 +1,32 @@
+<!--
+Things to verify:
+- comments (this block) are properly highlighted
+- expressions are highlighted as Python
+- <script> highlights Python syntax
+-->
+
+<template>
+  <div>
+    {{ foo * 10 + 'hi' }}
+    <span
+      v-text="foo * 10 + 'hi'"
+      :id="foo + 'baz'"
+      @click="on_click('hello')">
+      Hello
+    </span>
+  </div>
+</template>
+
+<script>
+# Python comment here
+import collagraph as cg
+
+
+class Basic(cg.Component):
+    def __init__(self, props):
+        super().__init__(props)
+        self.state["foo"] = 3
+
+    def on_click(self, event):
+        print(event)
+</script>

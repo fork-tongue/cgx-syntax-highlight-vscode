@@ -1,0 +1,25 @@
+{
+    "name": "cgx",
+    "displayName": "Collagraph Syntax",
+    "description": "Syntax highlight for Collagraph single file components",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "cgx",
+            "aliases": ["Collagraph Component", "cgx"],
+            "extensions": [".cgx"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "cgx",
+            "scopeName": "text.html.cgx",
+            "path": "./syntaxes/cgx.tmLanguage"
+        }]
+    }
+}
