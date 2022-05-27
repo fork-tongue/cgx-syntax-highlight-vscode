@@ -6,7 +6,7 @@ A VSCode extension that adds syntax highlighting for Collagraph single file comp
 ## Features
 
 <p align="center">
-  <img width="685px" src="https://raw.githubusercontent.com/fork-tongue/cgx-syntax-highlight-vscode/main/samples/screenshot.png">
+  <img width="585px" src="https://raw.githubusercontent.com/fork-tongue/cgx-syntax-highlight-vscode/main/samples/screenshot.png">
 </p>
 
 
